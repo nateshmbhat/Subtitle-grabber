@@ -37,12 +37,12 @@ Usage :-
 import Subtitle_grabber
 Subtitle_grabber.get_subtitle(filepath , lan="en") ; 
 
-// The argument lan refers to the two character language code for the corresponding languages as shown above.
+#The argument lan refers to the two character language code for the corresponding languages as shown above.
 
-//If the subtitle exists , then it automatically downloads it and renames it to that of the videofile.
+#If the subtitle exists , then it automatically downloads it and renames it to that of the videofile.
 
 
-//If a directory containing multiple files has to be specified, use the get_batch_sub( ) method.
+#If a directory containing multiple files has to be specified, use the get_batch_sub( ) method.
 
 Subtitle_grabber.get_batch_sub(directorypath , lan="en") ;
 
